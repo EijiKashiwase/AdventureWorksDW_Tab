@@ -16,7 +16,6 @@
           "authentication": null,
           "query": null
         },
-        "options": {},
         "credential": {
           "AuthenticationKind": "UsernamePassword",
           "kind": "SQL",
@@ -741,7 +740,7 @@
         ],
         "measures": [
           {
-            "name": "Units Sold",
+            "name": "Units Solds",
             "expression": " SUM(FactResellerSales[OrderQuantity])",
             "formatString": "#,0"
           },
